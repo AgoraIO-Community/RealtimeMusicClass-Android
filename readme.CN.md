@@ -2,6 +2,10 @@
 
 If you need The English version of this readme, click [here](readme.md)
 
+## 运行demo
+
+请参考[官方文档](https://docs.agora.io/cn/online_music_class/music_class_apaas_android?platform=All%20Platforms) 获取如何运行demo的指引
+
 ## 创建个性化合唱音乐
 ### 创建音乐配置文件
 Create a json file named **musics.json**, put the following content to the file as below
