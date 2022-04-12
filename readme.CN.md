@@ -26,7 +26,7 @@ Create a json file named **musics.json**, put the following content to the file 
 * **music**: 歌曲名称及音乐格式扩展名，当前支持多种音乐格式
 * **lyric**: 歌词文件及相应的扩展名，当前支持多种歌词文件格式
 
-歌曲列表的歌曲数目可以根据就要任意指定
+歌曲列表的歌曲数目可以根据需求任意指定
 
 ### 准备歌曲和歌词文件
 
