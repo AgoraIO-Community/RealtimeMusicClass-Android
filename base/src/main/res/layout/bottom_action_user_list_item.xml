@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_action_user_item_height">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bottom_action_user_list_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="@color/item_color"
+        android:textSize="@dimen/text_size_14" />
+
+    <io.agora.realtimemusicclass.base.ui.views.RMCRadioGroup
+        android:id="@+id/bottom_action_user_list_aec"
+        android:layout_width="@dimen/voice_effect_radio_layout_width"
+        android:layout_height="@dimen/voice_effect_radio_layout_height"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_action_voice_effect_item_divider_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/list_item_divider" />
+</RelativeLayout>

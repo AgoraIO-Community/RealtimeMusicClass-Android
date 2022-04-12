@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottom_action_music_list_title">选择伴奏歌曲</string>
+    <string name="bottom_action_console_title">调音台</string>
+    <string name="bottom_action_my_effect_title">设置我的人声效果</string>
+    <string name="bottom_action_user_title">用户列表</string>
+    <string name="bottom_action_chat_title">聊天</string>
+
+    <string name="function_under_development">功能开发中</string>
+
+    <string name="voice_effect_default">默认(高保真)</string>
+    <string name="voice_effect_vigorous">浑厚</string>
+    <string name="voice_effect_deep">低沉</string>
+    <string name="voice_effect_mellow">圆润</string>
+    <string name="voice_effect_falsetto">假音</string>
+    <string name="voice_effect_full">饱满</string>
+    <string name="voice_effect_clear">清澈</string>
+    <string name="voice_effect_resounding">高亢</string>
+    <string name="voice_effect_ringing">嘹亮</string>
+    <string name="man_reverb_small_room">男：小房间</string>
+    <string name="man_reverb_large_room">男：大房间</string>
+    <string name="man_reverb_hall">男：大厅</string>
+    <string name="woman_reverb_small_room">女：小房间</string>
+    <string name="woman_reverb_large_room">女：大房间</string>
+    <string name="woman_reverb_hall">女：大厅</string>
+
+    <string name="role_name_teacher">老师</string>
+    <string name="role_name_student">学生</string>
+    <string name="role_name_audience">观众</string>
+    <string name="role_name_unknown">未知</string>
+
+    <string name="volume_mic">麦克风</string>
+    <string name="volume_ear_monitor">耳返</string>
+    <string name="volume_bgm">伴奏</string>
+
+    <string name="user_action_aec">(回声消除)</string>
+    <string name="user_action_aec_no_echo">零回声</string>
+    <string name="user_action_aec_standard">标准</string>
+    <string name="user_action_aec_fluent">流畅</string>
+
+    <string name="myself">我</string>
+    <string name="nickname">昵称</string>
+    <string name="message">消息</string>
+    <string name="enter_contents">请输入消息</string>
+
+    <string name="dialog_kicked_out_by_remote_user_title">远端用户登录</string>
+    <string name="dialog_kicked_out_by_remote_user_button_text">离开教室</string>
+</resources>

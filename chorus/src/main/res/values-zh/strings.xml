@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chorus_title_layout_channel_name_hint">频道ID: &#160;&#160;</string>
+
+    <string name="chorus_bottom_bar_item_text_help">帮助</string>
+    <string name="chorus_bottom_bar_item_text_in_ear">耳返</string>
+    <string name="chorus_bottom_bar_item_text_camera">摄像头</string>
+    <string name="chorus_bottom_bar_item_text_mic">麦克风</string>
+    <string name="chorus_bottom_bar_item_text_chat">聊天</string>
+
+    <string name="course_ware_title_lyrics">音乐</string>
+    <string name="course_ware_title_file">课件</string>
+    <string name="course_ware_title_music_name_hint">音乐: &#160;&#160;</string>
+    <string name="course_ware_music_effect">音效</string>
+    <string name="course_ware_music_console">调音台</string>
+    <string name="course_ware_music_switch">换歌</string>
+
+    <string name="lrc_label">暂无歌词</string>
+    <string name="no_music">未选歌曲</string>
+
+    <string name="broadcaster_item_user_offline">已离线</string>
+    <string name="broadcaster_item_empty">空麦位</string>
+    <string name="seat_op_dialog_camera">摄像头</string>
+    <string name="seat_op_dialog_mic">麦克风</string>
+    <string name="seat_op_dialog_title_format">学生%s的设备</string>
+</resources>

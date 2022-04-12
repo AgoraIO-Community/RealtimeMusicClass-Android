@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agora_app_id" translatable="false"><## APP_ID ##></string>
+
+    <string name="bottom_action_music_list_title">Select background music</string>
+    <string name="bottom_action_console_title">Console</string>
+    <string name="bottom_action_my_effect_title">Set My Voice Effect</string>
+    <string name="bottom_action_user_title">User List</string>
+    <string name="bottom_action_chat_title">Chat</string>
+
+    <string name="function_under_development">Function being developed</string>
+
+    <string name="voice_effect_default">Default</string>
+    <string name="voice_effect_vigorous">Vigorous</string>
+    <string name="voice_effect_deep">Deep</string>
+    <string name="voice_effect_mellow">Mellow</string>
+    <string name="voice_effect_falsetto">Falsetto</string>
+    <string name="voice_effect_full">Full</string>
+    <string name="voice_effect_clear">Clear</string>
+    <string name="voice_effect_resounding">Resounding</string>
+    <string name="voice_effect_ringing">Ringing</string>
+    <string name="man_reverb_small_room">Man：Small Room</string>
+    <string name="man_reverb_large_room">Man：Large Room</string>
+    <string name="man_reverb_hall">Man：Hall</string>
+    <string name="woman_reverb_small_room">Woman：Small Room</string>
+    <string name="woman_reverb_large_room">Woman：Large Room</string>
+    <string name="woman_reverb_hall">Woman：hall</string>
+
+    <string name="role_name_teacher">Teacher</string>
+    <string name="role_name_student">Student</string>
+    <string name="role_name_audience">Audience</string>
+    <string name="role_name_unknown">Unknown</string>
+
+    <string name="volume_mic">Mic</string>
+    <string name="volume_ear_monitor">Ear Monitor</string>
+    <string name="volume_bgm">Background</string>
+
+    <string name="user_action_aec">(AEC)</string>
+    <string name="user_action_aec_no_echo">no echo</string>
+    <string name="user_action_aec_standard">standard</string>
+    <string name="user_action_aec_fluent">fluent</string>
+
+    <string name="myself">Myself</string>
+    <string name="nickname">Nickname</string>
+    <string name="message">Message</string>
+    <string name="enter_contents">Please enter message</string>
+
+    <string name="dialog_kicked_out_by_remote_user_title">Remote user login</string>
+    <string name="dialog_kicked_out_by_remote_user_button_text">Leave class</string>
+</resources>

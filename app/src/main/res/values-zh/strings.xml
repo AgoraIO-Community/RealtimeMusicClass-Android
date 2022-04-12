@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">声网音乐课堂</string>
+
+    <string name="contact_us">联系我们</string>
+    <string name="enter">进入体验</string>
+    <string name="more">了解更多</string>
+    <string name="start">开始上课</string>
+    <string name="enter_room">进入教室</string>
+
+    <string name="title_chorus">在线多人合唱教学</string>
+    <string name="subtitle_chorus">6人合唱延迟低于100ms</string>
+    <string name="title_instruments">在线乐器合奏</string>
+    <string name="subtitle_instruments">电乐器合奏延迟低于50ms</string>
+    <string name="title_piano">在线钢琴陪练</string>
+    <string name="subtitle_piano">支持二分镜头画面分离矫正</string>
+
+    <string name="fragment_role_type_title">设置上课身份</string>
+    <string name="fragment_role_type_role_teacher">老师</string>
+    <string name="fragment_role_type_role_student">学生</string>
+    <string name="fragment_role_type_role_audience">观众</string>
+    <string name="fragment_role_type_nickname">昵称</string>
+    <string name="fragment_role_type_nickname_hint">请输入昵称</string>
+    <string name="fragment_role_toast_invalid_user_name">请输入字母和数字</string>
+
+    <string name="fragment_room_create_title">创建新教室</string>
+    <string name="fragment_room_create_name_title">教室名</string>
+    <string name="fragment_room_create_name_hint">请输入房间名</string>
+    <string name="fragment_room_create_password_title">密码</string>
+    <string name="fragment_room_create_password_hint">请输入密码</string>
+    <string name="fragment_room_create_password_enable">启用密码</string>
+    <string name="fragment_room_create_empty_name">房间名不能为空</string>
+    <string name="fragment_room_create_success">创建房间成功</string>
+    <string name="fragment_room_create_password_too_long">密码最多为8个字符</string>
+
+    <string name="fragment_room_list_title">选择加入的教室</string>
+    <string name="fragment_room_list_empty">暂无教室</string>
+    <string name="fragment_room_list_item_room_name">教室名称:&#160;&#160;</string>
+    <string name="fragment_room_list_item_room_creator">创建人:&#160;&#160;</string>
+    <string name="fragment_room_list_item_room_id">频道ID:&#160;&#160;</string>
+
+    <string name="fragment_room_list_toast_enter_empty_password">密码不能为空</string>
+
+    <string name="password_dialog_title">请输入密码</string>
+</resources>

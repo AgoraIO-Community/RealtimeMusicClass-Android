@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_action_music_list_item_height">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bottom_action_music_list_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="@color/bottom_action_item_text_color"
+        android:textSize="@dimen/text_size_14" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bottom_action_music_list_item_icon"
+        android:layout_width="@dimen/bottom_action_music_list_item_icon_size"
+        android:layout_height="@dimen/bottom_action_music_list_item_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/bottom_action_music_list_item_icon_margin"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_music_sound_wave" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_action_music_list_item_divider_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/list_item_divider" />
+</RelativeLayout>

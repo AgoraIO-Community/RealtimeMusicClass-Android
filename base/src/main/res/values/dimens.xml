@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_10">10dp</dimen>
+    <dimen name="text_size_12">12dp</dimen>
+    <dimen name="text_size_13">13dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
+    <dimen name="text_size_15">15dp</dimen>
+    <dimen name="text_size_16">16dp</dimen>
+    <dimen name="text_size_17">17dp</dimen>
+    <dimen name="text_size_18">18dp</dimen>
+    <dimen name="text_size_20">20dp</dimen>
+
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+
+    <dimen name="thickness_1">1dp</dimen>
+    <dimen name="thickness_2">2dp</dimen>
+    <dimen name="thickness_3">3dp</dimen>
+
+    <dimen name="bottom_action_layout_corner">18dp</dimen>
+    <dimen name="bottom_action_layout_margin">6dp</dimen>
+    <dimen name="bottom_action_content_margin_top">20dp</dimen>
+    <dimen name="bottom_action_content_margin_bottom">30dp</dimen>
+    <dimen name="bottom_action_content_margin_side">18dp</dimen>
+    <dimen name="bottom_action_content_margin">10dp</dimen>
+
+    <dimen name="bottom_action_music_height">500dp</dimen>
+    <dimen name="bottom_action_music_title_height">22dp</dimen>
+    <dimen name="bottom_action_music_list_item_height">40dp</dimen>
+    <dimen name="bottom_action_music_list_item_icon_size">20dp</dimen>
+    <dimen name="bottom_action_music_list_item_icon_margin">8dp</dimen>
+    <dimen name="bottom_action_music_list_item_divider_height">1.25dp</dimen>
+
+    <dimen name="bottom_action_voice_effect_height">412dp</dimen>
+    <dimen name="bottom_action_voice_effect_title_height">22dp</dimen>
+    <dimen name="bottom_action_voice_effect_choose_icon_size">18dp</dimen>
+    <dimen name="bottom_action_voice_effect_item_height">40dp</dimen>
+    <dimen name="bottom_action_voice_effect_item_icon_margin">8dp</dimen>
+    <dimen name="bottom_action_voice_effect_item_divider_height">1.25dp</dimen>
+
+    <dimen name="voice_effect_radio_bar_width">110dp</dimen>
+    <dimen name="voice_effect_radio_bar_height">8dp</dimen>
+    <dimen name="voice_effect_radio_bar_border_thick">1dp</dimen>
+    <dimen name="voice_effect_radio_bar_border_radius">5dp</dimen>
+    <dimen name="voice_effect_radio_bar_inner_radius">3dp</dimen>
+    <dimen name="voice_effect_radio_bar_inner_width">108dp</dimen>
+    <dimen name="voice_effect_radio_bar_inner_height">6dp</dimen>
+    <dimen name="voice_effect_radio_bar_radio_inner_size">6dp</dimen>
+
+    <dimen name="voice_effect_radio_bar_radio_thumb_size">16dp</dimen>
+    <dimen name="voice_effect_radio_bar_radio_thumb_inner_radius">3dp</dimen>
+    <dimen name="voice_effect_radio_bar_radio_thumb_ring_thick">5dp</dimen>
+
+    <dimen name="voice_effect_radio_layout_width">118dp</dimen>
+    <dimen name="voice_effect_radio_layout_height">16dp</dimen>
+    <dimen name="voice_effect_radio_bar_margin">4dp</dimen>
+
+    <dimen name="bottom_action_console_height">412dp</dimen>
+    <dimen name="bottom_action_console_title_height">22dp</dimen>
+    <dimen name="bottom_action_console_name_width">50dp</dimen>
+    <dimen name="bottom_action_console_seek_bar_thumb_size">12dp</dimen>
+    <dimen name="bottom_action_console_progress_height">2dp</dimen>
+    <dimen name="bottom_action_console_progress_corner">1dp</dimen>
+    <dimen name="bottom_action_console_progress_margin">14dp</dimen>
+
+    <dimen name="bottom_action_user_height">412dp</dimen>
+    <dimen name="bottom_action_user_list_height">22dp</dimen>
+    <dimen name="bottom_action_user_list_content_margin">10dp</dimen>
+    <dimen name="bottom_action_user_item_height">40dp</dimen>
+    <dimen name="bottom_action_user_item_divider_height">1.25dp</dimen>
+    <dimen name="bottom_action_aec_mode_content_width">200dp</dimen>
+    <dimen name="bottom_action_aec_mode_content_height">22dp</dimen>
+
+    <dimen name="bottom_action_chat_height">412dp</dimen>
+    <dimen name="bottom_action_chat_title_height">22dp</dimen>
+    <dimen name="bottom_action_chat_divider_height">1.25dp</dimen>
+    <dimen name="bottom_action_chat_input_height">40dp</dimen>
+    <dimen name="bottom_action_chat_emoji_width">24dp</dimen>
+    <dimen name="bottom_action_chat_emoji_height">24dp</dimen>
+    <dimen name="bottom_action_chat_avatar_size">22dp</dimen>
+    <dimen name="bottom_action_chat_role_width">36dp</dimen>
+    <dimen name="bottom_action_chat_role_height">16dp</dimen>
+    <dimen name="bottom_action_chat_nickname_max_width">100dp</dimen>
+</resources>

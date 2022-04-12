@@ -1,0 +1,78 @@
+<resources>
+    <dimen name="fragment_title_height">44dp</dimen>
+
+    <dimen name="splash_app_icon_size">76dp</dimen>
+    <dimen name="splash_app_icon_margin_bottom">18dp</dimen>
+    <dimen name="splash_app_name_margin_bottom">110dp</dimen>
+    <dimen name="splash_app_name_height_en">20dp</dimen>
+    <dimen name="splash_app_name_text_size_en">14dp</dimen>
+    <dimen name="splash_app_name_height_zh">33dp</dimen>
+    <dimen name="splash_app_name_text_size_zh">24dp</dimen>
+
+    <dimen name="fragment_room_type_footer_margin">33dp</dimen>
+
+    <dimen name="fragment_room_type_item_radius">12dp</dimen>
+    <dimen name="fragment_room_type_item_margin">14dp</dimen>
+    <dimen name="fragment_room_type_item_height">150dp</dimen>
+    <dimen name="fragment_room_type_item_content_height">105dp</dimen>
+    <dimen name="fragment_room_type_item_button_height">45dp</dimen>
+    <dimen name="fragment_room_type_item_icon_size">68dp</dimen>
+    <dimen name="fragment_room_type_item_icon_margin_top">20dp</dimen>
+    <dimen name="fragment_room_type_item_icon_margin_right">20dp</dimen>
+    <dimen name="fragment_room_type_item_icon_margin_bottom">17dp</dimen>
+    <dimen name="fragment_room_type_item_title_margin_left">30dp</dimen>
+
+    <dimen name="fragment_role_type_item_width">80dp</dimen>
+    <dimen name="fragment_role_type_item_marginTop">50dp</dimen>
+    <dimen name="fragment_role_type_item_margin">28dp</dimen>
+    <dimen name="fragment_role_type_item_check_size">20dp</dimen>
+    <dimen name="fragment_role_type_item_check_margin_top">70dp</dimen>
+    <dimen name="fragment_role_type_item_name_margin_top">100dp</dimen>
+    <dimen name="fragment_role_type_input_layout_margin_side">48dp</dimen>
+
+    <dimen name="fragment_input_room_create_edit_margin_left">58dp</dimen>
+    <dimen name="fragment_input_room_create_edit_padding">20dp</dimen>
+    <dimen name="fragment_room_create_password_check_height">20dp</dimen>
+
+    <dimen name="fragment_input_layout_line_height">40dp</dimen>
+    <dimen name="fragment_input_name_margin">10dp</dimen>
+    <dimen name="fragment_input_name_margin_side">30dp</dimen>
+
+    <dimen name="fragment_room_create_input_layout_margin_top">40dp</dimen>
+    <dimen name="fragment_room_create_input_layout_margin_side">48dp</dimen>
+    <dimen name="fragment_room_create_check_box_size">12dp</dimen>
+
+    <dimen name="fragment_room_list_item_radius">12dp</dimen>
+    <dimen name="fragment_room_list_empty_icon_size">128dp</dimen>
+    <dimen name="fragment_room_list_empty_icon_margin_top">200dp</dimen>
+    <dimen name="fragment_room_list_empty_text_margin_top">16dp</dimen>
+    <dimen name="fragment_room_list_item_height">100dp</dimen>
+    <dimen name="fragment_room_list_item_margin">14dp</dimen>
+    <dimen name="fragment_room_list_item_text_margin_horizontal">20dp</dimen>
+    <dimen name="fragment_room_list_item_text_margin_between">6dp</dimen>
+    <dimen name="fragment_room_list_item_icon_size">16dp</dimen>
+    <dimen name="fragment_room_list_item_icon_margin">4dp</dimen>
+
+    <dimen name="password_input_dialog_width">320dp</dimen>
+    <dimen name="password_input_dialog_height">200dp</dimen>
+    <dimen name="password_input_dialog_corner">12dp</dimen>
+    <dimen name="password_input_dialog_close_btn_size">24dp</dimen>
+    <dimen name="password_input_dialog_close_btn_margin">14dp</dimen>
+    <dimen name="password_input_dialog_close_content_margin">24dp</dimen>
+    <dimen name="password_input_dialog_edit_layout_height">44dp</dimen>
+    <dimen name="password_input_dialog_edit_layout_corner">6dp</dimen>
+    <dimen name="password_input_dialog_edit_layout_margin_top">20dp</dimen>
+    <dimen name="password_input_dialog_edit_layout_padding_horizontal">12dp</dimen>
+    <dimen name="password_input_dialog_edit_height">32dp</dimen>
+    <dimen name="password_input_dialog_edit_clear_btn_size">16dp</dimen>
+
+    <dimen name="password_input_dialog_confirm_btn_width">160dp</dimen>
+    <dimen name="password_input_dialog_confirm_btn_height">44dp</dimen>
+    <dimen name="password_input_dialog_confirm_btn_corner">22dp</dimen>
+    <dimen name="password_input_dialog_confirm_btn_margin_top">24dp</dimen>
+
+    <dimen name="fragment_confirm_button_margin_bottom">50dp</dimen>
+    <dimen name="fragment_confirm_button_margin_width">280dp</dimen>
+    <dimen name="fragment_confirm_button_margin_height">44dp</dimen>
+    <dimen name="fragment_confirm_button_margin_corner">22dp</dimen>
+</resources>

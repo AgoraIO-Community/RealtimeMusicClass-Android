@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="broadcaster_recycler_item_row_count">3</integer>
+
+    <integer name="broadcaster_recycler_item_row_count_large_screen">6</integer>
+</resources>

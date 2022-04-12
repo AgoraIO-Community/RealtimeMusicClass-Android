@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_10">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="@dimen/bottom_action_chat_avatar_size"
+            android:layout_height="@dimen/bottom_action_chat_avatar_size"
+            android:scaleType="fitXY"
+            android:src="@mipmap/default_avatar" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_6"
+            android:ellipsize="end"
+            android:maxWidth="@dimen/bottom_action_chat_nickname_max_width"
+            android:singleLine="true"
+            android:text="@string/nickname"
+            android:textColor="@color/bottom_action_chat_black"
+            android:textSize="@dimen/text_size_15" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_role"
+            android:layout_width="@dimen/bottom_action_chat_role_width"
+            android:layout_height="@dimen/bottom_action_chat_role_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/margin_6"
+            android:background="@drawable/bottom_action_chat_role_bg"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/role_name_teacher"
+            android:textColor="@color/bottom_action_chat_role_gray"
+            android:textSize="@dimen/text_size_10"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="@dimen/margin_8"
+        android:background="@drawable/bottom_action_chat_recv_msg_bg"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/margin_10"
+        android:paddingTop="@dimen/margin_10"
+        android:paddingEnd="@dimen/margin_10"
+        android:paddingBottom="@dimen/margin_10"
+        android:text="@string/message"
+        android:textColor="@color/bottom_action_chat_black"
+        android:textSize="@dimen/text_size_17" />
+</RelativeLayout>

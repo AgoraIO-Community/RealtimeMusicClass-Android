@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/fragment_role_type_item_width"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fragment_role_type_item_icon"
+        android:layout_width="@dimen/fragment_role_type_item_width"
+        android:layout_height="@dimen/fragment_role_type_item_width"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fragment_role_type_item_check"
+        android:layout_width="@dimen/fragment_role_type_item_check_size"
+        android:layout_height="@dimen/fragment_role_type_item_check_size"
+        android:layout_marginTop="@dimen/fragment_role_type_item_check_margin_top"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_check"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/fragment_role_type_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_role_type_item_check"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/fragment_role_type_item_name_margin_top"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_size_14"
+        android:textStyle="bold"
+        android:textColor="@color/purple_dark"/>
+</RelativeLayout>

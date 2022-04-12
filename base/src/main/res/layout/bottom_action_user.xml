@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_action_user_height"
+    android:layout_marginStart="@dimen/bottom_action_layout_margin"
+    android:layout_marginEnd="@dimen/bottom_action_layout_margin"
+    android:background="@drawable/bottom_action_dialog_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/bottom_action_content_margin_side"
+        android:paddingTop="@dimen/bottom_action_content_margin_top"
+        android:paddingEnd="@dimen/bottom_action_content_margin_side"
+        android:paddingBottom="@dimen/bottom_action_content_margin_bottom">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/action_dialog_user_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bottom_action_user_list_height"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:text="@string/bottom_action_user_title"
+            android:textAlignment="gravity"
+            android:textColor="@color/theme_dark_purple"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/action_dialog_user_aec_mode_list"
+            android:layout_width="@dimen/voice_effect_radio_layout_width"
+            android:layout_height="@dimen/bottom_action_user_list_height"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/action_dialog_aec_mode_no_echo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:gravity="center_vertical"
+                android:text="@string/user_action_aec_no_echo"
+                android:textAlignment="gravity"
+                android:textColor="@color/theme_dark_purple"
+                android:textSize="@dimen/text_size_12" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/action_dialog_aec_mode_standard"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:text="@string/user_action_aec_standard"
+                android:textAlignment="gravity"
+                android:textColor="@color/theme_dark_purple"
+                android:textSize="@dimen/text_size_12" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/action_dialog_aec_mode_fluent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical"
+                android:text="@string/user_action_aec_fluent"
+                android:textAlignment="gravity"
+                android:textColor="@color/theme_dark_purple"
+                android:textSize="@dimen/text_size_12" />
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/action_dialog_aec_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bottom_action_user_list_height"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_toStartOf="@id/action_dialog_user_aec_mode_list"
+            android:gravity="center_vertical"
+            android:text="@string/user_action_aec"
+            android:textAlignment="gravity"
+            android:textColor="@color/theme_dark_purple"
+            android:textSize="@dimen/text_size_12"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/action_dialog_user_list_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/action_dialog_user_list_title"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/bottom_action_content_margin"
+            android:overScrollMode="never" />
+    </RelativeLayout>
+</RelativeLayout>

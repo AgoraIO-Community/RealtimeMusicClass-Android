@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chorus_title_layout_height">44dp</dimen>
+    <dimen name="chorus_title_layout_padding">14dp</dimen>
+
+    <dimen name="chorus_bottom_bar_height">50dp</dimen>
+    <dimen name="chorus_bottom_bar_item_icon_size">24dp</dimen>
+    <dimen name="chorus_bottom_bar_item_text_margin">2dp</dimen>
+
+    <dimen name="chorus_audience_layout_width">60dp</dimen>
+    <dimen name="chorus_audience_layout_height">34dp</dimen>
+    <dimen name="chorus_audience_layout_corner">17dp</dimen>
+    <dimen name="chorus_audience_layout_margin_bottom">30dp</dimen>
+    <dimen name="chorus_audience_layout_icon_width">16dp</dimen>
+    <dimen name="chorus_audience_layout_icon_height">20dp</dimen>
+    <dimen name="chorus_audience_layout_icon_margin">6dp</dimen>
+
+    <dimen name="chorus_broadcaster_recycler_margin_small">10dp</dimen>
+    <dimen name="chorus_broadcaster_recycler_margin_medium">14dp</dimen>
+    <dimen name="broadcaster_recycler_item_margin_small">1dp</dimen>
+    <dimen name="broadcaster_recycler_item_margin_medium">4dp</dimen>
+    <dimen name="broadcaster_recycler_item_margin_large">6dp</dimen>
+    <dimen name="broadcaster_recycler_item_radius">4dp</dimen>
+    <dimen name="broadcaster_recycler_item_empty_text_margin">16dp</dimen>
+    <dimen name="broadcaster_recycler_item_empty_layout_icon_size">60dp</dimen>
+    <dimen name="broadcaster_recycler_item_role_name_height">18dp</dimen>
+    <dimen name="broadcaster_recycler_item_role_name_bg_corner">12dp</dimen>
+    <dimen name="broadcaster_recycler_item_mic_icon_size">16dp</dimen>
+
+    <dimen name="broadcaster_dialog_width">280dp</dimen>
+    <dimen name="broadcaster_dialog_height">164dp</dimen>
+    <dimen name="broadcaster_dialog_corner">12dp</dimen>
+    <dimen name="broadcaster_dialog_close_size">24dp</dimen>
+
+    <dimen name="course_ware_layout_padding_top">10dp</dimen>
+    <dimen name="course_ware_layout_padding">14dp</dimen>
+    <dimen name="course_ware_tab_item_height">32dp</dimen>
+    <dimen name="course_ware_tab_item_padding">20dp</dimen>
+    <dimen name="course_ware_tab_title_layout_width">32dp</dimen>
+    <dimen name="course_ware_tab_title_layout_height">22dp</dimen>
+    <dimen name="course_ware_tab_indicator_width">16dp</dimen>
+    <dimen name="course_ware_tab_indicator_height">2dp</dimen>
+    <dimen name="course_ware_tab_indicator_corner">1dp</dimen>
+    <dimen name="course_ware_tab_indicator_margin_top">2dp</dimen>
+
+    <dimen name="course_ware_music_name_layout_height">40dp</dimen>
+    <dimen name="course_ware_music_name_layout_padding">16dp</dimen>
+    <dimen name="course_ware_music_bottom_bar_height">50dp</dimen>
+    <dimen name="course_ware_music_bottom_bar_padding">14dp</dimen>
+    <dimen name="course_ware_music_play_icon_size">26dp</dimen>
+    <dimen name="course_ware_music_icon_size">22dp</dimen>
+    <dimen name="course_ware_music_icon_margin_end">10dp</dimen>
+    <dimen name="course_ware_music_icon_text_padding">2dp</dimen>
+    <dimen name="course_ware_music_console_margin_end">20dp</dimen>
+
+    <dimen name="lrc_text_size">16sp</dimen>
+    <dimen name="lrc_divider_height">16dp</dimen>
+    <dimen name="lrc_margin_top">0dp</dimen>
+</resources>

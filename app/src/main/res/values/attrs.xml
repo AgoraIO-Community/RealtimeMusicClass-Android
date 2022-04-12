@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoomTypeItemView">
+        <attr name="radius" format="dimension"/>
+        <attr name="borderColor" format="color|reference"/>
+        <attr name="borderThick" format="dimension"/>
+        <attr name="startColor" format="color|reference"/>
+        <attr name="endColor" format="color|reference"/>
+        <attr name="icon" format="reference"/>
+        <attr name="title" format="reference|string"/>
+        <attr name="subtitle" format="reference|string"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoleTypeItemView">
+        <attr name="selection" format="boolean"/>
+        <attr name="name" format="string|reference"/>
+        <attr name="img" format="reference"/>
+    </declare-styleable>
+</resources>

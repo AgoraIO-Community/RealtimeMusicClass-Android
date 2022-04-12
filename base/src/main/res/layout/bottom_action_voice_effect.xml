@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_action_voice_effect_height"
+    android:layout_marginStart="@dimen/bottom_action_layout_margin"
+    android:layout_marginEnd="@dimen/bottom_action_layout_margin"
+    android:background="@drawable/bottom_action_dialog_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/bottom_action_content_margin_top"
+        android:paddingBottom="@dimen/bottom_action_content_margin_bottom"
+        android:paddingStart="@dimen/bottom_action_content_margin_side"
+        android:paddingEnd="@dimen/bottom_action_content_margin_side">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/action_dialog_my_effect_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bottom_action_voice_effect_title_height"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textAlignment="gravity"
+            android:gravity="center_vertical"
+            android:text="@string/bottom_action_my_effect_title"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/theme_dark_purple" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/action_dialog_voice_effect_list_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:layout_below="@id/action_dialog_my_effect_title"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/bottom_action_content_margin"/>
+    </RelativeLayout>
+</RelativeLayout>

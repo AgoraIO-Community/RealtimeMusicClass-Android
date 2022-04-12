@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bottom_action_dialog" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#66000000</item>
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="bottomSheetStyle">@style/bottom_action_dialog_background</item>
+    </style>
+
+    <style name="bottom_action_dialog_background" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="bottom_action_console_progress_bar"
+        parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:minHeight">@dimen/bottom_action_console_progress_height</item>
+        <item name="android:maxHeight">@dimen/bottom_action_console_progress_height</item>
+        <item name="android:progressDrawable">@drawable/bottom_action_seek_bar_progress</item>
+        <item name="android:thumb">@drawable/bottom_action_seek_bar_thumb</item>
+    </style>
+
+    <style name="loading_dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

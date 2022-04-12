@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:thickness="@dimen/thickness_2"
+    android:useLevel="false">
+    <solid android:color="@color/bottom_action_seek_bar_thumb_color"/>
+    <size android:width="@dimen/bottom_action_console_seek_bar_thumb_size"
+        android:height="@dimen/bottom_action_console_seek_bar_thumb_size"/>
+</shape>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_action_voice_effect_item_height">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bottom_action_voice_effect_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="@color/bottom_action_item_text_color"
+        android:textSize="@dimen/text_size_14" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bottom_action_voice_effect_choose_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:layout_marginEnd="@dimen/bottom_action_voice_effect_item_icon_margin"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_voice_effect_choosed" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_action_voice_effect_item_divider_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/list_item_divider" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Realtimemusicclass" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="Theme.Realtimemusicclass.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Realtimemusicclass.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Realtimemusicclass.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AgoraMusicBaseDialog">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:windowBackground">@color/password_dialog_background</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

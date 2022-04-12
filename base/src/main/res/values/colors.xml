@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_bg_white">#F9F9F9</color>
+    <color name="theme_dark_purple">#1C004C</color>
+    <color name="theme_purple">#9B44FD</color>
+    <color name="dialog_window_bg">#66000000</color>
+    <color name="list_item_divider">#EEEEF7</color>
+    <color name="text_disabled">#EEEEEE</color>
+
+    <color name="splash_text_black">#191919</color>
+    <color name="splash_text_gray">#677386</color>
+
+    <color name="bottom_action_text_color_dark_gray">#586376</color>
+    <color name="bottom_action_seek_bar_thumb_color">#9B44FD</color>
+    <color name="bottom_action_seek_bar_progress_bg">#EAEAEA</color>
+
+    <color name="bottom_action_voice_effect_choose_color">#9B44FD</color>
+
+    <color name="bottom_action_voice_effect_radio_bar_stoke">#E3E3EC</color>
+    <color name="bottom_action_voice_effect_radio_bar_fill">#EEEEE7</color>
+
+    <color name="bottom_action_chat_hint_color">#FF7d8798</color>
+    <color name="bottom_action_chat_black">#191919</color>
+    <color name="bottom_action_chat_role_gray">#ABB1BA</color>
+</resources>

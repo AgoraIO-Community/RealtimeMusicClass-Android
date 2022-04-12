@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_medium">#9B44FD</color>
+    <color name="purple_dark">#1C004C</color>
+
+    <color name="fragment_room_type_item_divider">#EEEEF7</color>
+    <color name="fragment_room_type_item_shade">#1A2F4192</color>
+    <color name="fragment_room_type_item_yellow">#FFE07C</color>
+    <color name="fragment_room_type_item_orange">#FF7A83</color>
+    <color name="fragment_room_type_item_pink">#FF91FC</color>
+    <color name="fragment_room_type_item_pink_dark">#C796FF</color>
+    <color name="fragment_room_type_item_blue">#52B6FF</color>
+    <color name="fragment_room_type_item_blue_dark">#575FFF</color>
+
+    <color name="fragment_input_underscore">#E3E3EC</color>
+    <color name="fragment_input_hint">#95909D</color>
+    <color name="fragment_input_title_disabled">#EEEEEE</color>
+    <color name="fragment_input_hint_disabled">#EEEEEE</color>
+
+    <color name="fragment_confirm_button_start">#641BDF</color>
+    <color name="fragment_confirm_button_end">#D07AF5</color>
+
+    <color name="fragment_room_list_empty_text">#6A6670</color>
+    <color name="fragment_room_list_item_border">#1A2F4192</color>
+
+    <color name="password_dialog_edit_layout_bg">#EEEEF7</color>
+    <color name="password_dialog_edit_btn_start_color">#EE2CE8</color>
+    <color name="password_dialog_edit_btn_end_color">#FF9754</color>
+    <color name="password_dialog_background">#66000000</color>
+</resources>

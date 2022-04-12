@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:useLevel="false"
+    android:innerRadius="@dimen/voice_effect_radio_bar_radio_thumb_inner_radius"
+    android:thickness="@dimen/voice_effect_radio_bar_radio_thumb_ring_thick">
+    <solid android:color="@color/theme_purple"/>
+    <size android:width="@dimen/voice_effect_radio_bar_radio_thumb_size"
+        android:height="@dimen/voice_effect_radio_bar_radio_thumb_size"/>
+</shape>

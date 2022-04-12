@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Agora RealTime Music Class</string>
+
+    <string name="splash_name_en" translatable="false">Agora RealTime Music Class</string>
+    <string name="splash_name_zh" translatable="false">声网音乐课堂</string>
+
+    <string name="agora_name" translatable="false">agora.io</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="enter">Enter</string>
+    <string name="more">More</string>
+    <string name="start">Start Class</string>
+    <string name="enter_room">Enter</string>
+
+    <string name="title_chorus">在线多人合唱教学</string>
+    <string name="subtitle_chorus">6人合唱延迟低于100ms</string>
+    <string name="title_instruments">在线乐器合奏</string>
+    <string name="subtitle_instruments">电乐器合奏延迟低于50ms</string>
+    <string name="title_piano">在线钢琴陪练</string>
+    <string name="subtitle_piano">支持二分镜头画面分离矫正</string>
+
+    <string name="fragment_role_type_title">Role</string>
+    <string name="fragment_role_type_role_teacher">Teacher</string>
+    <string name="fragment_role_type_role_student">Student</string>
+    <string name="fragment_role_type_role_audience">Audience</string>
+    <string name="fragment_role_type_nickname">Name</string>
+    <string name="fragment_role_type_nickname_hint">Please input your name</string>
+    <string name="fragment_role_toast_invalid_user_name">Please input digits and letters</string>
+
+    <string name="fragment_room_create_title">Create New Classroom</string>
+    <string name="fragment_room_create_name_title">Class Name</string>
+    <string name="fragment_room_create_name_hint">Please input class name</string>
+    <string name="fragment_room_create_password_title">Password</string>
+    <string name="fragment_room_create_password_hint">Please input password</string>
+    <string name="fragment_room_create_password_enable">Use password</string>
+    <string name="fragment_room_create_empty_name">Room name cannot be empty</string>
+    <string name="fragment_room_create_success">Create room successfully</string>
+    <string name="fragment_room_create_password_too_long">Password is no more than 8 characters</string>
+
+    <string name="fragment_room_list_title">Choose Classroom</string>
+    <string name="fragment_room_list_empty">No Room</string>
+    <string name="fragment_room_list_item_room_name">Room Name:&#160;&#160;</string>
+    <string name="fragment_room_list_item_room_creator">Creator:&#160;&#160;</string>
+    <string name="fragment_room_list_item_room_id">Room ID:&#160;&#160;</string>
+
+    <string name="fragment_room_list_toast_enter_empty_password">Password is empty</string>
+
+    <string name="password_dialog_title">Input Password</string>
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/course_ware_lyrics_bg">
+
+    <RelativeLayout
+        android:id="@+id/course_ware_fragment_music_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/course_ware_music_name_layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/course_ware_music_name_layout_padding"
+        android:layout_marginEnd="@dimen/course_ware_music_name_layout_padding">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/course_ware_fragment_music_name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:text="@string/course_ware_title_music_name_hint"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_16" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/course_ware_fragment_music_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/course_ware_console_switch_music"
+            android:layout_toEndOf="@id/course_ware_fragment_music_name_title"
+            android:gravity="center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_16" />
+
+        <LinearLayout
+            android:id="@+id/course_ware_console_switch_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/course_ware_music_icon_size"
+                android:layout_height="@dimen/course_ware_music_icon_size"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_switch" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/course_ware_music_icon_text_padding"
+                android:gravity="center_vertical"
+                android:text="@string/course_ware_music_switch"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lrc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/course_ware_bottom_bar_layout"
+        android:layout_below="@+id/course_ware_fragment_music_name_layout">
+
+        <io.agora.realtimemusicclass.chorus.view.lrcview.LrcView
+            android:id="@+id/lrcView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/course_ware_bottom_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/course_ware_music_bottom_bar_height"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="@dimen/course_ware_music_bottom_bar_padding"
+        android:paddingEnd="@dimen/course_ware_music_bottom_bar_padding">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/course_ware_fragment_play_icon"
+            android:layout_width="@dimen/course_ware_music_play_icon_size"
+            android:layout_height="@dimen/course_ware_music_play_icon_size"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/course_ware_fragment_music_play_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/course_ware_music_icon_margin_end"
+            android:layout_toEndOf="@id/course_ware_fragment_play_icon"
+            android:gravity="center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_12" />
+
+        <LinearLayout
+            android:id="@+id/course_ware_voice_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/course_ware_music_icon_text_padding"
+            android:layout_toStartOf="@+id/course_ware_console"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_effect" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/course_ware_music_icon_text_padding"
+                android:gravity="center_vertical"
+                android:text="@string/course_ware_music_effect"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/course_ware_console"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/course_ware_music_icon_text_padding"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/course_ware_music_icon_size"
+                android:layout_height="@dimen/course_ware_music_icon_size"
+                android:gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_music_console" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/course_ware_music_icon_text_padding"
+                android:gravity="center_vertical"
+                android:text="@string/course_ware_music_console"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

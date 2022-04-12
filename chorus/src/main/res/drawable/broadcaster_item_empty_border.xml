@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/broadcaster_recycler_item_radius"/>
+    <stroke android:color="@color/broadcaster_recycler_item_empty_border"
+        android:width="@dimen/thickness_1"/>
+    <solid android:color="@android:color/transparent"/>
+</shape>

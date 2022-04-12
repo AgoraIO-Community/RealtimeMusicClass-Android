@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:topLeftRadius="@dimen/chorus_audience_layout_corner"
+        android:bottomLeftRadius="@dimen/chorus_audience_layout_corner"/>
+    <gradient android:startColor="@color/chorus_lobby_audience_start_color"
+        android:endColor="@color/chorus_lobby_audience_end_color"/>
+</shape>

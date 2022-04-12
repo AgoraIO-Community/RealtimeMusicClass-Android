@@ -1,0 +1,8 @@
+ext {
+    versions = [
+            "retrofit_version": '2.9.0',
+            "agora_rtm_sdk"   : '1.4.9',
+            "agora_rtc_sdk"   : '3.6.200.103',
+            'okhttp'          : '4.9.2',
+    ]
+}

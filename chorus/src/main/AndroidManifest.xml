@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.agora.realtimemusicclass.chorus">
+
+    <application
+        android:name="io.agora.realtimemusicclass.base.MusicClassApp"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:name=".ChorusActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="LockedOrientationActivity">
+        </activity>
+    </application>
+</manifest>

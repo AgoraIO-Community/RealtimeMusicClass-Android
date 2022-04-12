@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/voice_effect_radio_bar_width"
+                android:height="@dimen/voice_effect_radio_bar_height"/>
+            <corners android:radius="@dimen/voice_effect_radio_bar_border_radius"/>
+            <solid android:color="@color/bottom_action_voice_effect_radio_bar_stoke"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/voice_effect_radio_bar_border_thick"
+        android:right="@dimen/voice_effect_radio_bar_border_thick"
+        android:top="@dimen/voice_effect_radio_bar_border_thick"
+        android:bottom="@dimen/voice_effect_radio_bar_border_thick">
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/voice_effect_radio_bar_inner_width"
+                android:height="@dimen/voice_effect_radio_bar_inner_height"/>
+            <solid android:color="@color/bottom_action_voice_effect_radio_bar_fill"/>
+            <corners android:radius="@dimen/voice_effect_radio_bar_border_radius"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/voice_effect_radio_bar_border_thick"
+        android:top="@dimen/voice_effect_radio_bar_border_thick"
+        android:bottom="@dimen/voice_effect_radio_bar_border_thick"
+        android:right="102.8dp">
+        <shape android:shape="oval">
+            <size android:width="@dimen/voice_effect_radio_bar_radio_inner_size"
+                android:height="@dimen/voice_effect_radio_bar_radio_inner_size"/>
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+    <item android:left="52.2dp"
+        android:top="@dimen/voice_effect_radio_bar_border_thick"
+        android:bottom="@dimen/voice_effect_radio_bar_border_thick"
+        android:right="51.8dp">
+        <shape android:shape="oval">
+            <size android:width="@dimen/voice_effect_radio_bar_radio_inner_size"
+                android:height="@dimen/voice_effect_radio_bar_radio_inner_size"/>
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+    <item android:left="102.8dp"
+        android:top="@dimen/voice_effect_radio_bar_border_thick"
+        android:bottom="@dimen/voice_effect_radio_bar_border_thick"
+        android:right="@dimen/voice_effect_radio_bar_border_thick">
+        <shape android:shape="oval">
+            <size android:width="@dimen/voice_effect_radio_bar_radio_inner_size"
+                android:height="@dimen/voice_effect_radio_bar_radio_inner_size"/>
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+</layer-list>
