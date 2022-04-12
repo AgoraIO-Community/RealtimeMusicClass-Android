@@ -1,6 +1,6 @@
 # Realtime Music Class
 
-点击[此处](readme.md)获取中文说明
+点击[此处](readme.CN.md)获取中文说明
 
 ## Create your own music list
 ### Creating a music config list
